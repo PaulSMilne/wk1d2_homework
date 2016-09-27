@@ -65,18 +65,20 @@ def test_add_string_as_number()
     assert_equal( "Sep", ninth_month_string )
   end
 
-  # #Further
+  #Further
 
-  # #Given the length of a side of a cube calculate the volume 
-  # def test_volume_of_cube()
+  #Given the length of a side of a cube calculate the volume 
+  def test_volume_of_cube()
+    cube_result = volume_of_cube(3)
+    assert_equal( 27, cube_result )
+  end
 
-  # end
-
-  # #Given the radius of a sphere calculate the volume
-  # #Try using Ruby's PI value!
-  # def test_volume_of_sphere()
-
-  # end
+  #Given the radius of a sphere calculate the volume
+  #Try using Ruby's PI value!
+  def test_volume_of_sphere()
+    sphere_result = volume_of_sphere(3)
+    assert_equal(113.1, sphere_result)
+  end
 
   # #You can add your own converters
   # def test_fahrenheit_to_celsius()

@@ -61,6 +61,13 @@ end
 
 def number_to_short_month_name(month_num)
   result = number_to_full_month_name(month_num)
-  return result[0...2]
+  return result[0...3]
 end
 
+def volume_of_cube(side)
+  return side**3
+end
+
+def volume_of_sphere(radius)
+  return ((4*Math::PI*radius**3)/3).round(1)
+end
