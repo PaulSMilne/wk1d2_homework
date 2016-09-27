@@ -86,9 +86,10 @@ def test_add_string_as_number()
     assert_equal(21, temp_result)
   end
 
-  # def test_miles_to_kilometres
-
-  # end
+  def test_miles_to_kilometres
+    klicks = miles_to_kilometres(10)
+    assert_equal(16, klicks)
+  end
 
 
 end
