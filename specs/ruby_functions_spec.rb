@@ -81,9 +81,10 @@ def test_add_string_as_number()
   end
 
   # #You can add your own converters
-  # def test_fahrenheit_to_celsius()
-
-  # end
+  def test_fahrenheit_to_celsius()
+    temp_result = fahrenheit_to_celsius(70)
+    assert_equal(21, temp_result)
+  end
 
   # def test_miles_to_kilometres
 
