@@ -58,3 +58,9 @@ def number_to_full_month_name(month_num)
     return "December"
   end
 end
+
+def number_to_short_month_name(month_num)
+  result = number_to_full_month_name(month_num)
+  return result[0...2]
+end
+
